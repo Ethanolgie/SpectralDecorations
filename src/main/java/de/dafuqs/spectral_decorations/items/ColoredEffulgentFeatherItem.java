@@ -9,8 +9,8 @@ import net.minecraft.util.*;
 import java.util.*;
 
 public class ColoredEffulgentFeatherItem extends CloakedItem {
-
-	public static final Identifier CLOAK_ADVANCEMENT = SpectralDecorations.locate("lategame/pluck_colored_effulgent_feather");
+	
+	public static final Identifier CLOAK_ADVANCEMENT = SpectralDecorations.locate("pluck_colored_effulgent_feather");
 
 	private static final Map<DyeColor, ColoredEffulgentFeatherItem> FEATHERS = Maps.newEnumMap(DyeColor.class);
 	protected final DyeColor color;

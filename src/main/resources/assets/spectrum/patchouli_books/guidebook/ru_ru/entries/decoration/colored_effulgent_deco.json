@@ -3,7 +3,7 @@
   "icon": "spectrum:kindling_head",
   "advancement": "spectrum:lategame/remember_kindling",
   "category": "spectrum:decoration_category",
-  "turnin": "spectral-decorations:lategame/pluck_colored_effulgent_feather",
+  "turnin": "spectral-decorations:pluck_colored_effulgent_feather",
   "extra_recipe_mappings": {
     "spectral-decorations:black_effulgent_feather": 0,
     "spectral-decorations:blue_effulgent_feather": 0,
@@ -82,7 +82,7 @@
     },
     {
       "type": "spectrum:collection",
-      "advancement": "spectral-decorations:lategame/pluck_colored_effulgent_feather",
+      "advancement": "spectral-decorations:pluck_colored_effulgent_feather",
       "title": "Цветные Перья",
       "items": [
         "spectral-decorations:black_effulgent_feather",
@@ -106,28 +106,28 @@
     },
     {
       "type": "spectrum:pedestal_crafting",
-      "advancement": "spectral-decorations:lategame/pluck_colored_effulgent_feather",
+      "advancement": "spectral-decorations:pluck_colored_effulgent_feather",
       "title": "Лучезарные Блоки",
       "recipe": "spectral-decorations:colored_effulgent/cyan_block",
       "text": "$(italic)Суперпушистый.$()"
     },
     {
       "type": "spectrum:pedestal_crafting",
-      "advancement": "spectral-decorations:lategame/pluck_colored_effulgent_feather",
+      "advancement": "spectral-decorations:pluck_colored_effulgent_feather",
       "title": "Лучезарные Пуфики",
       "recipe": "spectral-decorations:colored_effulgent/magenta_cushion",
       "text": "$(italic)На нем очень мягко сидеть.$()"
     },
     {
       "type": "spectrum:pedestal_crafting",
-      "advancement": "spectral-decorations:lategame/pluck_colored_effulgent_feather",
+      "advancement": "spectral-decorations:pluck_colored_effulgent_feather",
       "title": "Лучезарные Коврики",
       "recipe": "spectral-decorations:colored_effulgent/yellow_carpet_from_blocks",
       "text": "$(italic)И по нему очень мягко ходить!$()"
     },
     {
       "type": "spectrum:collection",
-      "advancement": "spectral-decorations:lategame/pluck_colored_effulgent_feather",
+      "advancement": "spectral-decorations:pluck_colored_effulgent_feather",
       "items": [
         "spectral-decorations:black_effulgent_block",
         "spectral-decorations:blue_effulgent_block",

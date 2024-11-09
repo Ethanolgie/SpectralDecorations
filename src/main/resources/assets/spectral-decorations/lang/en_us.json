@@ -1,13 +1,13 @@
 {
   "itemGroup.spectral-decorations.deco": "Spectral Decorations",
 
-  "recipeGroup.spectral-decorations.colored_amphoras": "Colored Amphoras",
-  "recipeGroup.spectral-decorations.colored_lanterns": "Colored Lanterns",
-  "recipeGroup.spectral-decorations.colored_lights": "Colored Lights",
-  "recipeGroup.spectral-decorations.colored_beams": "Colored Beams",
-  "recipeGroup.spectral-decorations.vanilla_wood_beams": "Wooden Beams",
-  "recipeGroup.spectral-decorations.vanilla_wood_amphoras": "Wooden Amphoras",
-  "recipeGroup.spectral-decorations.colored_effulgent_deco": "Colored Effulgent Deco",
+  "recipeGroup.spectrum.colored_amphoras": "Colored Amphoras",
+  "recipeGroup.spectrum.colored_lanterns": "Colored Lanterns",
+  "recipeGroup.spectrum.colored_lights": "Colored Lights",
+  "recipeGroup.spectrum.colored_beams": "Colored Beams",
+  "recipeGroup.spectrum.vanilla_wood_beams": "Wooden Beams",
+  "recipeGroup.spectrum.vanilla_wood_amphoras": "Wooden Amphoras",
+  "recipeGroup.spectrum.colored_effulgent_deco": "Colored Effulgent Deco",
   "tag.spectral-decorations.colored_effulgent_feathers": "Colored Effulgent Feathers",
 
   "tooltip.spectral-decorations.colored": "Colored ",
