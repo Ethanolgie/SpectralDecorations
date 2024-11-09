@@ -3,7 +3,6 @@ package de.dafuqs.spectral_decorations;
 import de.dafuqs.fractal.api.*;
 import de.dafuqs.spectrum.blocks.amphora.*;
 import de.dafuqs.spectrum.blocks.decoration.*;
-import de.dafuqs.spectrum.blocks.furniture.*;
 import de.dafuqs.spectrum.helpers.*;
 import de.dafuqs.spectrum.registries.*;
 import net.fabricmc.fabric.api.item.v1.*;

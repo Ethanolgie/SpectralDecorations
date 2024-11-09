@@ -24,7 +24,7 @@ public class BedrockColoringRecipe extends ShapelessPedestalRecipe {
 	public BedrockColoringRecipe(Identifier id) {
 		super(id, "", false, UNLOCK_IDENTIFIER, PedestalRecipeTier.BASIC, List.of(
 						IngredientStack.of(Ingredient.fromTag(SpectralDecorationsItemTags.BEDROCK_ARMOR)),
-						IngredientStack.of(Ingredient.fromTag(SpectrumItemTags.PIGMENTS))),
+						IngredientStack.of(Ingredient.fromTag(SpectralDecorationsItemTags.PIGMENTS))),
 				Map.of(),
 				BedrockArmorColorizer.setColor(SpectrumItems.BEDROCK_CHESTPLATE.getDefaultStack(), DyeColor.CYAN),
 				0F, 120, false, false);
