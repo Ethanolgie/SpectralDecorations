@@ -1,0 +1,43 @@
+{
+  "name": "book.spectral-decorations.guidebook.colored_bedrock_armor.name",
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "spectrum:unlocks/equipment/bedrock_tools"
+  },
+  "icon": {
+    "item": "spectrum:bedrock_chestplate",
+    "nbt": {
+      "Color": "blue"
+    }
+  },
+  "category": "spectrum:equipment",
+  "hide_while_locked": true,
+  "parents": [
+    {
+      "entry": "spectrum:equipment/tools_and_armor/bedrock_armor"
+    }
+  ],
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "x": -2,
+  "y": 1,
+  "pages": [
+    {
+      "type": "spectrum:collection",
+      "title": "book.spectral-decorations.guidebook.colored_bedrock_armor.name",
+      "items": [
+        "spectrum:bedrock_helmet{Color:\"green\"}",
+        "spectrum:bedrock_chestplate{Color:\"orange\"}",
+        "spectrum:bedrock_leggings{Color:\"pink\"}",
+        "spectrum:bedrock_boots{Color:\"yellow\"}"
+      ],
+      "text": "book.spectral-decorations.guidebook.colored_bedrock_armor.page0.text"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "container.spectrum.rei.pedestal_recipe",
+      "recipe_id": "spectral-decorations:pedestal/tier1/bedrock_armor_coloring",
+      "text": "book.spectral-decorations.guidebook.colored_bedrock_armor.page1.text"
+    }
+  ]
+}

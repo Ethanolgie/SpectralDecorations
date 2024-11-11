@@ -1,0 +1,46 @@
+{
+  "name": "recipeGroup.spectrum.colored_lanterns",
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "spectrum:collect_pigment"
+  },
+  "icon": "spectral-decorations:cyan_lantern",
+  "category": "spectrum:decoration",
+  "hide_while_locked": true,
+  "parents": [],
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "x": 11,
+  "y": 6,
+  "pages": [
+    {
+      "type": "spectrum:collection",
+      "title": "recipeGroup.spectrum.colored_lanterns",
+      "items": [
+        "spectral-decorations:black_lantern",
+        "spectral-decorations:blue_lantern",
+        "spectral-decorations:brown_lantern",
+        "spectral-decorations:cyan_lantern",
+        "spectral-decorations:gray_lantern",
+        "spectral-decorations:green_lantern",
+        "spectral-decorations:light_blue_lantern",
+        "spectral-decorations:light_gray_lantern",
+        "spectral-decorations:lime_lantern",
+        "spectral-decorations:magenta_lantern",
+        "spectral-decorations:orange_lantern",
+        "spectral-decorations:pink_lantern",
+        "spectral-decorations:purple_lantern",
+        "spectral-decorations:red_lantern",
+        "spectral-decorations:white_lantern",
+        "spectral-decorations:yellow_lantern"
+      ],
+      "text": "book.spectral-decorations.guidebook.colored_lanterns.page0.text"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "container.spectrum.rei.pedestal_recipe",
+      "recipe_id": "spectral-decorations:pedestal/tier1/colored_lanterns/cyan",
+      "text": "book.spectral-decorations.guidebook.colored_lanterns.page1.text"
+    }
+  ]
+}

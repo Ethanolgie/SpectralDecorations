@@ -1,0 +1,46 @@
+{
+  "name": "recipeGroup.spectrum.colored_beams",
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "spectrum:collect_pigment"
+  },
+  "icon": "spectral-decorations:orange_beam",
+  "category": "spectrum:decoration",
+  "hide_while_locked": true,
+  "parents": [],
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "x": 11,
+  "y": 8,
+  "pages": [
+    {
+      "type": "spectrum:collection",
+      "title": "recipeGroup.spectrum.colored_beams",
+      "items": [
+        "spectral-decorations:black_beam",
+        "spectral-decorations:blue_beam",
+        "spectral-decorations:brown_beam",
+        "spectral-decorations:cyan_beam",
+        "spectral-decorations:gray_beam",
+        "spectral-decorations:green_beam",
+        "spectral-decorations:light_blue_beam",
+        "spectral-decorations:light_gray_beam",
+        "spectral-decorations:lime_beam",
+        "spectral-decorations:magenta_beam",
+        "spectral-decorations:orange_beam",
+        "spectral-decorations:pink_beam",
+        "spectral-decorations:purple_beam",
+        "spectral-decorations:red_beam",
+        "spectral-decorations:white_beam",
+        "spectral-decorations:yellow_beam"
+      ],
+      "text": "book.spectral-decorations.guidebook.colored_wood_variants.page0.text"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Colored Beams",
+      "recipe_id": "spectral-decorations:pedestal/tier1/colored_beams/orange",
+      "text": "book.spectral-decorations.guidebook.colored_wood_variants.page1.text"
+    }
+  ]
+}

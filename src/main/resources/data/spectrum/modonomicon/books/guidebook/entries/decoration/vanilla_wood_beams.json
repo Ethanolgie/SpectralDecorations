@@ -1,0 +1,41 @@
+{
+  "name": "recipeGroup.spectrum.vanilla_wood_beams",
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "spectrum:place_pedestal"
+  },
+  "icon": "spectral-decorations:oak_beam",
+  "category": "spectrum:decoration",
+  "hide_while_locked": true,
+  "parents": [],
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "x": 11,
+  "y": 3,
+  "pages": [
+    {
+      "type": "spectrum:collection",
+      "title": "recipeGroup.spectrum.vanilla_wood_beams",
+      "items": [
+        "spectral-decorations:oak_beam",
+        "spectral-decorations:spruce_beam",
+        "spectral-decorations:birch_beam",
+        "spectral-decorations:dark_oak_beam",
+        "spectral-decorations:jungle_beam",
+        "spectral-decorations:acacia_beam",
+        "spectral-decorations:bamboo_beam",
+        "spectral-decorations:mangrove_beam",
+        "spectral-decorations:cherry_beam",
+        "spectral-decorations:crimson_beam",
+        "spectral-decorations:warped_beam"
+      ],
+      "text": "book.spectral-decorations.guidebook.vanilla_wood_beams.page0.text"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Wooden Beams",
+      "recipe_id": "spectral-decorations:pedestal/tier1/vanilla_wood_beams/oak_beam",
+      "text": "book.spectral-decorations.guidebook.vanilla_wood_beams.page1.text"
+    }
+  ]
+}

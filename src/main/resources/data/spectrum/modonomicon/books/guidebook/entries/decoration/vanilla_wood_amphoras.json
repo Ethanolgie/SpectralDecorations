@@ -1,0 +1,41 @@
+{
+  "name": "recipeGroup.spectrum.vanilla_wood_amphoras",
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "spectrum:lategame/collect_noxwood"
+  },
+  "icon": "spectral-decorations:oak_amphora",
+  "category": "spectrum:decoration",
+  "hide_while_locked": true,
+  "parents": [],
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "x": 11,
+  "y": 4,
+  "pages": [
+    {
+      "type": "spectrum:collection",
+      "title": "recipeGroup.spectrum.vanilla_wood_amphoras",
+      "items": [
+        "spectral-decorations:oak_amphora",
+        "spectral-decorations:spruce_amphora",
+        "spectral-decorations:birch_amphora",
+        "spectral-decorations:dark_oak_amphora",
+        "spectral-decorations:jungle_amphora",
+        "spectral-decorations:acacia_amphora",
+        "spectral-decorations:bamboo_amphora",
+        "spectral-decorations:mangrove_amphora",
+        "spectral-decorations:cherry_amphora",
+        "spectral-decorations:crimson_amphora",
+        "spectral-decorations:warped_amphora"
+      ],
+      "text": "book.spectral-decorations.guidebook.vanilla_wood_amphoras.page0.text"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Wooden Amphoras",
+      "recipe_id": "spectral-decorations:pedestal/tier1/vanilla_wood_amphoras/oak_amphora",
+      "text": "book.spectral-decorations.guidebook.vanilla_wood_amphoras.page1.text"
+    }
+  ]
+}

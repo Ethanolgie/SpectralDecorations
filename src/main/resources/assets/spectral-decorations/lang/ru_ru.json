@@ -1,13 +1,13 @@
 {
-  "itemGroup.spectral-decorations.maint": "Spectral Decorations",
+  "itemGroup.spectral-decorations.deco": "Spectral Decorations",
 
-  "recipeGroup.spectral-decorations.colored_amphoras": "Цветные Амфоры",
-  "recipeGroup.spectral-decorations.colored_lanterns": "Цветные Лампы",
-  "recipeGroup.spectral-decorations.colored_lights": "Цветные Тёмносветы",
-  "recipeGroup.spectral-decorations.colored_beams": "Цветной Брус",
-  "recipeGroup.spectral-decorations.vanilla_wood_beams": "Деревянный Брус",
-  "recipeGroup.spectral-decorations.vanilla_wood_amphoras": "Деревянные Амфоры",
-  "recipeGroup.spectral-decorations.colored_effulgent_deco": "Цветная Лучезарная Декорация",
+  "recipeGroup.spectrum.colored_amphoras": "Цветные Амфоры",
+  "recipeGroup.spectrum.colored_lanterns": "Цветные Лампы",
+  "recipeGroup.spectrum.colored_lights": "Цветные Тёмносветы",
+  "recipeGroup.spectrum.colored_beams": "Цветной Брус",
+  "recipeGroup.spectrum.vanilla_wood_beams": "Деревянный Брус",
+  "recipeGroup.spectrum.vanilla_wood_amphoras": "Деревянные Амфоры",
+  "recipeGroup.spectrum.colored_effulgent_deco": "Цветная Лучезарная Декорация",
   "tag.spectral-decorations.colored_effulgent_feathers": "Цветные Лучезарные Перья",
 
   "tooltip.spectral-decorations.colored": "Цветные ",
@@ -168,5 +168,33 @@
   "block.spectral-decorations.white_effulgent_carpet": "Белый Лучезарный Ковёр",
   "block.spectral-decorations.yellow_effulgent_block": "Жёлтый Лучезарный Блок",
   "block.spectral-decorations.yellow_effulgent_cushion": "Жёлтый Лучезарный Пуфик",
-  "block.spectral-decorations.yellow_effulgent_carpet": "Жёлтый Лучезарный Ковёр"
+  "block.spectral-decorations.yellow_effulgent_carpet": "Жёлтый Лучезарный Ковёр",
+
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.name": "Покраска Киндлингов",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.kindling_coloring.text": "Кисточка способна окрашивать как блоки, так и существ, например овец.\\\nЧто же касается такого магического существа, как Киндлинг…\\\n\\\nYou can uncolor Kindlings again by bathing them in [Liquid Crystal](entry://general/liquid_crystal).",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.colored_feathers.title": "Цветные Перья",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.colored_feathers.text": "Ваши киндлинги впитывали волшебную краску как губка, насыщая все оперение одним движением кисти - в отличие от овец, у которых шерсть окрашена лишь частично. Соответствующие перья были логичным следствием.",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.effulgent_blocks.title": "Лучезарные Блоки",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.effulgent_blocks.text": "*Суперпушистый.*",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.effulgent_cushions.title": "Лучезарные Пуфики",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.effulgent_cushions.text": "*На нем очень мягко сидеть.*",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.effulgent_carpets.title": "Лучезарные Коврики",
+  "book.spectral-decorations.guidebook.colored_effulgent_deco.effulgent_carpets.text": "*И по нему очень мягко ходить!*",
+
+  "book.spectral-decorations.guidebook.colored_bedrock_armor.name": "Цветная Бедрок Броня",
+  "book.spectral-decorations.guidebook.colored_bedrock_armor.page0.text": "Бедрок Броня выглядит очень стильно. Однако не помешало бы немного больше выбора цветов для вашего гардероба. Нет проблем!",
+  "book.spectral-decorations.guidebook.colored_bedrock_armor.page1.text": "Соедините любую часть Бедрок Брони с пигментом, чтобы перекрасить его.",
+
+  "book.spectral-decorations.guidebook.colored_amphoras.page0.text": "Мракодеерво - это, конечно, круто, но почему бы не сделать уникальные амфоры из разноцветных деревьев, которые попадались вам на пути?",
+  "book.spectral-decorations.guidebook.colored_amphoras.page1.text": "Почти как бочка, но гораздо вместительнее: их объем соответствует двойному сундуку.\\\nВ комплекте все 16 цветов. Пора добавить цветовой код в ваш склад?",
+  "book.spectral-decorations.guidebook.colored_lanterns.page0.text": "Небольшие декоративные лампы. Можно разместить на полу или потолке, прямо или крест-накрест.\\\nПри размещении альтернативной формы(Шифт+ПКМ) выдвигаются.",
+  "book.spectral-decorations.guidebook.colored_lanterns.page1.text": "Выпускаются во всех 16 цветах.",
+  "book.spectral-decorations.guidebook.colored_lights.page0.text": "Декоративные блоки, которые привнесут цвет и свет в ваши проекты.",
+  "book.spectral-decorations.guidebook.colored_lights.page1.text": "Выпускаются во всех 16 цветах.",
+  "book.spectral-decorations.guidebook.colored_wood_variants.page0.text": "Яркие цвета этого нового вида древесины заставляют вас задуматься о творчестве. Простые бревна и доски не подойдут для некоторых зданий. Вы придумали, как сделать привлекательные опоры любого цвета.",
+  "book.spectral-decorations.guidebook.colored_wood_variants.page1.text": "Выпускаются во всех 16 цветах.",
+  "book.spectral-decorations.guidebook.vanilla_wood_amphoras.page0.text": "Раз уж у вас есть целая солянка различных саженцев, почему бы не сделать из них уникальные амфоры?",
+  "book.spectral-decorations.guidebook.vanilla_wood_amphoras.page1.text": "Почти как бочка, но гораздо вместительнее: их объем соответствует двойному сундуку.",
+  "book.spectral-decorations.guidebook.vanilla_wood_beams.page0.text": "Есть одна вещь, которая никогда не отпускала ваш свободный дух: Творчество. Ваша голова регулярно наполняется новыми идеями о том, как можно украсить свой дом. Как насчет декоративного деревянного бруса? Лучше, чем булыжник 9 на 9, это точно.",
+  "book.spectral-decorations.guidebook.vanilla_wood_beams.page1.text": "В варианте с бамбуком вместо бревна используется бамбуковый блок."
 }
