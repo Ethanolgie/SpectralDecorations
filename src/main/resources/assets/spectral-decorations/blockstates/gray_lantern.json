@@ -1,28 +1,28 @@
 {
 	"variants": {
-		"hanging=false,diagonal=false,alt=false": {
-			"model": "spectral-decorations:block/gray_lantern"
+      "hanging=false,diagonal=false,tall=true": {
+        "model": "spectral-decorations:block/gray_lantern_tall"
 		},
-		"hanging=false,diagonal=false,alt=true": {
-			"model": "spectral-decorations:block/gray_lantern_alt"
+      "hanging=false,diagonal=false,tall=false": {
+        "model": "spectral-decorations:block/gray_lantern_small"
 		},
-		"hanging=false,diagonal=true,alt=false": {
-			"model": "spectral-decorations:block/gray_lantern_diagonal"
+      "hanging=false,diagonal=true,tall=true": {
+        "model": "spectral-decorations:block/gray_lantern_diagonal_tall"
 		},
-		"hanging=false,diagonal=true,alt=true": {
-			"model": "spectral-decorations:block/gray_lantern_diagonal_alt"
+      "hanging=false,diagonal=true,tall=false": {
+        "model": "spectral-decorations:block/gray_lantern_diagonal_small"
 		},
-		"hanging=true,diagonal=false,alt=false": {
-			"model": "spectral-decorations:block/gray_lantern_hanging"
+      "hanging=true,diagonal=false,tall=true": {
+        "model": "spectral-decorations:block/gray_lantern_hanging_tall"
 		},
-		"hanging=true,diagonal=false,alt=true": {
-			"model": "spectral-decorations:block/gray_lantern_hanging_alt"
+      "hanging=true,diagonal=false,tall=false": {
+        "model": "spectral-decorations:block/gray_lantern_hanging_small"
 		},
-		"hanging=true,diagonal=true,alt=false": {
-			"model": "spectral-decorations:block/gray_lantern_hanging_diagonal"
+      "hanging=true,diagonal=true,tall=true": {
+        "model": "spectral-decorations:block/gray_lantern_hanging_diagonal_tall"
 		},
-		"hanging=true,diagonal=true,alt=true": {
-			"model": "spectral-decorations:block/gray_lantern_hanging_diagonal_alt"
+      "hanging=true,diagonal=true,tall=false": {
+        "model": "spectral-decorations:block/gray_lantern_hanging_diagonal_small"
 		}
 	}
 }
