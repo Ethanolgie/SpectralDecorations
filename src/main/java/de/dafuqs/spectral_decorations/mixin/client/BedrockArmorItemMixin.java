@@ -20,12 +20,10 @@ public abstract class BedrockArmorItemMixin {
 	@Inject(at = @At("HEAD"), method = "getArmorTexture(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EquipmentSlot;)Lnet/minecraft/util/Identifier;", cancellable = true)
 	private void spectral_decorations$modifyBedrockArmorColor(ItemStack stack, EquipmentSlot slot, CallbackInfoReturnable<Identifier> cir) {
 		// feet do not have any color and therefore do use the default renderer
-		if (slot != EquipmentSlot.FEET) {
-			Optional<DyeColor> color = BedrockArmorColorizer.getColor(stack);
-			if (color.isPresent()) {
-				String colorString = color.get().asString();
-				cir.setReturnValue(SpectralDecorations.locate("textures/armor/bedrock_armor_main_" + colorString + ".png"));
-			}
+		Optional<DyeColor> color = BedrockArmorColorizer.getColor(stack);
+		if (color.isPresent()) {
+			String colorString = color.get().asString();
+			cir.setReturnValue(SpectralDecorations.locate("textures/armor/bedrock_armor_" + colorString + ".png"));
 		}
 	}
 	
@@ -34,7 +32,7 @@ public abstract class BedrockArmorItemMixin {
 		Optional<DyeColor> color = BedrockArmorColorizer.getColor(stack);
 		if (color.isPresent()) {
 			String colorString = color.get().asString();
-			Identifier renderLayerId = SpectralDecorations.locate("textures/armor/bedrock_armor_main_" + colorString + ".png");
+			Identifier renderLayerId = SpectralDecorations.locate("textures/armor/bedrock_armor_" + colorString + ".png");
 			cir.setReturnValue(RenderLayer.getEntitySolid(renderLayerId));
 		}
 	}
